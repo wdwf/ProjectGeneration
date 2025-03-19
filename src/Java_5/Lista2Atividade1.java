@@ -51,42 +51,46 @@ public class Lista2Atividade1 {
 			System.out.printf("Quantos %s você deseja comprar (numeros sem virgula ou ponto): ", produtoSelecionado);
 			quantidade = input.nextInt();
 			valorTotal = quantidade * 10.00;
+			System.out.printf("Produto: %s \nValor total: R$ %.2f", produtoSelecionado, valorTotal);
 			break;
 		case 2: 
 			produtoSelecionado = "X-Salada";
 			System.out.printf("Quantos %s você deseja comprar (numeros sem virgula ou ponto): ", produtoSelecionado);
 			quantidade = input.nextInt();
 			valorTotal = quantidade * 15.00;
+			System.out.printf("Produto: %s \nValor total: R$ %.2f", produtoSelecionado, valorTotal);
 			break;
 		case 3: 
 			produtoSelecionado = "X-Bacon";
 			System.out.printf("Quantos %s você deseja comprar (numeros sem virgula ou ponto): ", produtoSelecionado);
 			quantidade = input.nextInt();
 			valorTotal = quantidade * 18.00;
+			System.out.printf("Produto: %s \nValor total: R$ %.2f", produtoSelecionado, valorTotal);
 			break;
 		case 4: 
 			produtoSelecionado = "Bauru";
 			System.out.printf("Quantos %s você deseja comprar (numeros sem virgula ou ponto): ", produtoSelecionado);
 			quantidade = input.nextInt();
 			valorTotal = quantidade * 12.00;
+			System.out.printf("Produto: %s \nValor total: R$ %.2f", produtoSelecionado, valorTotal);
 			break;
 		case 5: 
 			produtoSelecionado = "Refrigerante";
 			System.out.printf("Quantos %s você deseja comprar (numeros sem virgula ou ponto): ", produtoSelecionado);
 			quantidade = input.nextInt();
 			valorTotal = quantidade * 8.00;
+			System.out.printf("Produto: %s \nValor total: R$ %.2f", produtoSelecionado, valorTotal);
 			break;
 		case 6: 
 			produtoSelecionado = "Suco de laranja";
 			System.out.printf("Quantos %s você deseja comprar (numeros sem virgula ou ponto): ", produtoSelecionado);
 			quantidade = input.nextInt();
 			valorTotal = quantidade * 13.00;
+			System.out.printf("Produto: %s \nValor total: R$ %.2f", produtoSelecionado, valorTotal);
 			break;
 		default:
 			System.out.println("Produto não localizado...");
 		}
-		
-		System.out.printf("Produto: %s \nValor total: R$ %.2f", produtoSelecionado, valorTotal);
 		
 		input.close();
 	}

@@ -48,7 +48,7 @@ public class Lista2Atividade2 {
 		System.out.println(" 5 - Estoquista");
 		System.out.println(" 6 - Técnico de TI");
 		System.out.println("------------------ ---- --------------------------------");
-		System.out.print("Digite o codigo do produto desejado (De 1 a 6): ");
+		System.out.print("Digite o codigo do cargo desejado (De 1 a 6): ");
 		codigoCargo = input.nextInt();
 		
 		switch (codigoCargo) {
@@ -57,42 +57,47 @@ public class Lista2Atividade2 {
 			System.out.printf("Qual é o salario do cargo de %s Atualmente: ", cargoSelecionado);
 			salarioAtual = input.nextFloat();
 			salarioReajustado = (float) (salarioAtual + (0.10 * salarioAtual));
+			System.out.printf("\n\nNome do colaborador: %s \nCargo: %s \nSalario Reajustado: R$ %.2f", nomeColaborador, cargoSelecionado, salarioReajustado);
 			break;
 		case 2: 
 			cargoSelecionado = "Vendedor";
 			System.out.printf("Qual é o salario do cargo de %s Atualmente: ", cargoSelecionado);
 			salarioAtual = input.nextFloat();
 			salarioReajustado = (float) (salarioAtual + (0.07 * salarioAtual));
+			System.out.printf("\n\nNome do colaborador: %s \nCargo: %s \nSalario Reajustado: R$ %.2f", nomeColaborador, cargoSelecionado, salarioReajustado);
 			break;
 		case 3: 
 			cargoSelecionado = "Supervisor";
 			System.out.printf("Qual é o salario do cargo de %s Atualmente: ", cargoSelecionado);
 			salarioAtual = input.nextFloat();
 			salarioReajustado = (float) (salarioAtual + (0.09 * salarioAtual));
+			System.out.printf("\n\nNome do colaborador: %s \nCargo: %s \nSalario Reajustado: R$ %.2f", nomeColaborador, cargoSelecionado, salarioReajustado);
 			break;
 		case 4: 
 			cargoSelecionado = "Motorista";
 			System.out.printf("Qual é o salario do cargo de %s Atualmente: ", cargoSelecionado);
 			salarioAtual = input.nextFloat();
 			salarioReajustado = (float) (salarioAtual + (0.06 * salarioAtual));
+			System.out.printf("\n\nNome do colaborador: %s \nCargo: %s \nSalario Reajustado: R$ %.2f", nomeColaborador, cargoSelecionado, salarioReajustado);
 			break;
 		case 5: 
 			cargoSelecionado = "Estoquista";
 			System.out.printf("Qual é o salario do cargo de %s Atualmente: ", cargoSelecionado);
 			salarioAtual = input.nextFloat();
 			salarioReajustado = (float) (salarioAtual + (0.05 * salarioAtual));
+			System.out.printf("\n\nNome do colaborador: %s \nCargo: %s \nSalario Reajustado: R$ %.2f", nomeColaborador, cargoSelecionado, salarioReajustado);
 			break;
 		case 6: 
 			cargoSelecionado = "Técnico de TI";
 			System.out.printf("Qual é o salario do cargo de %s Atualmente: ", cargoSelecionado);
 			salarioAtual = input.nextFloat();
 			salarioReajustado = (float) (salarioAtual + (0.08 * salarioAtual));
+			System.out.printf("\n\nNome do colaborador: %s \nCargo: %s \nSalario Reajustado: R$ %.2f", nomeColaborador, cargoSelecionado, salarioReajustado);
 			break;
 		default:
 			System.out.println("Cargo não localizado não localizado...");
 		}
 		
-		System.out.printf("\n\nNome do colaborador: %s \nCargo: %s \nSalario Reajustado: R$ %.2f", nomeColaborador, cargoSelecionado, salarioReajustado);
 		
 		input.close();
 	}

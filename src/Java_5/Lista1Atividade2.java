@@ -14,13 +14,13 @@ import java.util.Scanner;
 public class Lista1Atividade2 {
 	public static void main(String[] args) {
 		int num;
-		
+
 		Scanner input = new Scanner(System.in);
-		
+
 		System.out.print("Digite um número: ");
 		num = input.nextInt();
-		
-		if(num % 2 == 0 && num > 0) {
+
+		if (num % 2 == 0 && num > 0) {
 			System.out.printf("O Número %d é par e positivo", num);
 		} else if (num % 2 == 0 && num < 0) {
 			System.out.printf("O Número %d é par e negativo", num);
@@ -31,7 +31,7 @@ public class Lista1Atividade2 {
 		} else {
 			System.out.printf("O Número %d é igual a 0", num);
 		}
-		
+
 		input.close();
 	}
 }

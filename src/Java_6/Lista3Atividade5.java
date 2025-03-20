@@ -2,6 +2,12 @@ package Java_6;
 
 import java.util.Scanner;
 
+/*
+ * Escreva um algoritmo em Java, que leia números inteiros via teclado, 
+ * até que o número zero seja digitado. Ao final, mostre na tela a 
+ * soma de todos os números digitados, que sejam positivos.
+ * */
+
 public class Lista3Atividade5 {
 	public static void main(String[] args) {
 		int numero;

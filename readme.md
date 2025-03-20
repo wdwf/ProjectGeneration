@@ -8,7 +8,7 @@
 Este é um repositorio para listar todo e qualquer arquivo gerado durante as seções de estudos em Java do programa. 
 
 ## Atividades
-[Variáveis e Operadores - Java-04](https://github.com/wdwf/ProjectGeneration/tree/main/src/Java_4)
-[Uso de condicionais e Switch](https://github.com/wdwf/ProjectGeneration/tree/main/src/Java_5)
+- [Variáveis e Operadores - Java-04](https://github.com/wdwf/ProjectGeneration/tree/main/src/Java_4)
+- [Uso de condicionais e Switch](https://github.com/wdwf/ProjectGeneration/tree/main/src/Java_5)
 
 👨‍💻 Desenvolvido com muita garra por [Weslley Ferreira de Moraes](https://www.linkedin.com/in/weslleyferreira/).

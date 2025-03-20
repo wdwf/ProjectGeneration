@@ -9,7 +9,7 @@ Este é um repositorio para listar todo e qualquer arquivo gerado durante as se�
 
 ## Atividades
 - [Variáveis e Operadores - Java-04](https://github.com/wdwf/ProjectGeneration/tree/main/src/Java_4)
-- [Uso de condicionais e Switch](https://github.com/wdwf/ProjectGeneration/tree/main/src/Java_5)
-- [Uso de laços de repetição](https://github.com/wdwf/ProjectGeneration/tree/main/src/Java_6)
+- [Uso de condicionais e Switch - Java-05](https://github.com/wdwf/ProjectGeneration/tree/main/src/Java_5)
+- [Uso de laços de repetição - Java-06](https://github.com/wdwf/ProjectGeneration/tree/main/src/Java_6)
 
 👨‍💻 Desenvolvido com muita garra por [Weslley Ferreira de Moraes](https://www.linkedin.com/in/weslleyferreira/).

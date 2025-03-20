@@ -41,15 +41,15 @@ public class Lista1Atividade1 {
 		}
 	}
 
-	public static void validacaoDeIntervalo(int num1, int num2) {
-		if (num1 >= num2) {
+	public static void validacaoDeIntervalo(int primeiroNumero, int segundoNumero) {
+		if (primeiroNumero >= segundoNumero) {
 			throw new ArithmeticException("Intervalo inválido.");
 		}
 	}
 
-	public static void mostrarMultiplos(int num1, int num2) {
-		System.out.printf("No intervalo entre %d e %d:\n", num1, num2);
-		for (int i = num1; i <= num2; i++) {
+	public static void mostrarMultiplos(int primeiroNumero, int segundoNumero) {
+		System.out.printf("No intervalo entre %d e %d:\n", primeiroNumero, segundoNumero);
+		for (int i = primeiroNumero; i <= segundoNumero; i++) {
 			if (i % 3 == 0 && i % 5 == 0) {
 				System.out.println(i + " é multiplo de 3 e 5");
 			}

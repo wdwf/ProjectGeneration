@@ -46,7 +46,6 @@ public class Lista1Atividade1 {
 				break;
 			}
 		}
-		
 		return valorFoiEncontrado;
 
 	}

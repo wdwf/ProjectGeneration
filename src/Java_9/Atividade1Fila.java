@@ -50,7 +50,7 @@ public class Atividade1Fila {
                     System.out.println("\nO Cliente foi Chamado!\n");
                     break;
                 default:
-                    System.out.println("Opção inválida.");
+                    System.out.println("\nOpção inválida.\n");
                     break;
             }
         }

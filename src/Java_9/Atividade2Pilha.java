@@ -49,7 +49,7 @@ public class Atividade2Pilha {
                     System.out.println("\nO Livro foi retirado da pilha!\n");
                     break;
                 default:
-                    System.out.println("Opção inválida.");
+                    System.out.println("\nOpção inválida.\n");
                     break;
             }
         }
